@@ -2,7 +2,6 @@ import Navbar from "/src/pages/index/components/Navbar";
 import About from "/src/pages/index/components/About";
 import Services from "/src/pages/index/components/Services";
 import Subscribe from "/src/pages/index/components/Subscribe";
-import Guide from "/src/chatbot/PAMBot.jsx";
 import Footer from "/src/Components-Common/Footer.jsx";
 
 const Index = () => {
@@ -26,7 +25,6 @@ const Index = () => {
 
           <Footer />
         </div>
-        <Guide />
       </div>
     </>
   );
